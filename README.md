@@ -32,6 +32,10 @@ npx octoherd-script-sync-repo-settings \
 | `--octoherd-repos`, `-R`     | array of strings | One or multiple space-separated repositories in the form of `repo-owner/repo-name`. `repo-owner/*` will find all repositories for one owner. `*` will find all repositories the user has access to. Will prompt for repositories if not set |
 | `--octoherd-bypass-confirms` | boolean          | Bypass prompts to confirm mutating requests                                                                                                                                                                                                 |
 
+## Inspired by
+* https://github.com/octoherd/script-sync-branch-protections
+* https://github.com/googleapis/repo-automation-bots/tree/master/packages/sync-repo-settings
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
