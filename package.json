@@ -6,7 +6,7 @@
   "bin": {
     "octoherd-script-sync-repo-settings": "./cli.js"
   },
-  "description": "This script takes settings in a .github/sync-repo-settings.yaml file, and automatically applies them to your repository",
+  "description": "This script takes 'Repository Options' from a Repository passed as argument and is used as template to apply same Options for other repositories.",
   "scripts": {
     "start": "node cli.js",
     "test": "node script.js"
