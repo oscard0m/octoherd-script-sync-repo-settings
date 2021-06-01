@@ -35,6 +35,7 @@ npx octoherd-script-sync-repo-settings \
 ## Inspired by
 * https://github.com/octoherd/script-sync-branch-protections
 * https://github.com/googleapis/repo-automation-bots/tree/master/packages/sync-repo-settings
+* https://github.com/MunifTanjim/octoherd-script-set-pr-merge-config
 
 ## Contributing
 
