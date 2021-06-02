@@ -33,9 +33,14 @@ npx octoherd-script-sync-repo-settings \
 | `--octoherd-bypass-confirms` | boolean          | Bypass prompts to confirm mutating requests                                                                                                                                                                                                 |
 
 ## Inspired by
-* https://github.com/octoherd/script-sync-branch-protections
-* https://github.com/googleapis/repo-automation-bots/tree/master/packages/sync-repo-settings
-* https://github.com/MunifTanjim/octoherd-script-set-pr-merge-config
+
+#### Other Octoherd scripts
+* [sync-branch-protection](https://github.com/octoherd/script-sync-branch-protections) by [@gr2m](https://github.com/gr2m)
+* [set-pr-merge-config](https://github.com/MunifTanjim/octoherd-script-set-pr-merge-config) by [@MunifTanjim](https://github.com/MunifTanjim)
+
+#### Other GitHub Apps
+* [sync-repo-settings](https://github.com/googleapis/repo-automation-bots/tree/master/packages/sync-repo-settings) by [Google](https://github.com/googleapis)
+* [Settings GitHub App](https://github.com/probot/settings) by [Probot](https://github.com/probot)
 
 ## Contributing
 
