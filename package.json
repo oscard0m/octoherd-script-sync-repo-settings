@@ -1,0 +1,29 @@
+{
+  "name": "octoherd-script-sync-repo-settings",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-sync-repo-settings": "./cli.js"
+  },
+  "description": "This script takes 'Repository Options' from a Repository passed as argument and is used as template to apply same Options for other repositories.",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/oscard0m/octoherd-script-sync-repo-settings",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Oscar Dominguez <dominguez.celada@gmail.com> (https://www.oscardom.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^3.3.3"
+  },
+  "devDependencies": {},
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
