@@ -59,8 +59,7 @@ export async function script(octokit, repository, options) {
 
     const urlParameters = {
       owner: repository.owner.login,
-      repo: repository.name,
-      name: repository.name
+      repo: repository.name
     };
 
     await octokit.request('PATCH /repos/{owner}/{repo}',
